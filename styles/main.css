@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+html {
+    background: url(../res/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    max-width: 1100px;
+    height: 440px;
+    background: rgba(5, 5, 5, 0.8);
+    text-align: center;
+}
+
+.hero:before,
+.contact:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.hero h1 {
+    vertical-align: middle;
+
+    display: inline-block;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+h1 .left {
+    position: relative;
+    left: -50px;
+}
+
+h1 .right {
+    position: relative;
+    right: -21px;
+}
+
+.break:before {
+    content: '\a';
+    white-space: pre;
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    max-width: 1100px;
+    height: 340px;
+    background: rgba(255, 255, 255, 0.85);
+    text-align: center;
+}
+
+.contact .center {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact .envelope {
+    display: inline-block;
+    width: 113px;
+    height: 85px;
+}
+
+.contact a {
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.contact h2 {
+    margin-bottom: 0;
+}
